@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Gallaxary</string>
+    <string name="signup_instructions">With Gallaxary, you can explore stunning
+        images of the cosmos courtesy of NASA\'s APOD API. Before we can begin, please add your API
+        key within the ApiKey file. If You do not have one, you can receive a free API key
+        at api.nasa.gov.
+    </string>
+    <string name="gallery">Gallery</string>
+    <string name="favorites">Favorites</string>
+    <string name="image_title">Image Title</string>
+    <string name="signup_title">Gallaxary</string>
+    <string name="api_key">Api Key</string>
+    <string name="choose_date">Choose Date</string>
+</resources>

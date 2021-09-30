@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/galleryFrag">
+
+    <fragment
+        android:id="@+id/galleryFrag"
+        android:name="com.christophermasse.spaceshowcase.ui.gallery.GalleryFrag"
+        android:label="GalleryFrag" >
+        <action
+            android:id="@+id/action_galleryFrag_to_detailFrag"
+            app:destination="@id/detailFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFrag"
+        android:name="com.christophermasse.spaceshowcase.ui.detail.DetailFrag"
+        android:label="DetailFrag" />
+</navigation>
